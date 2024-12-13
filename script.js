@@ -24,7 +24,7 @@ lightDark.addEventListener("click", function () {
     // document.documentElement.style.setProperty('--Line', '#00ffd1');
     moon.style.display = "flex";
     sun.style.display = "none";
-    shower.innerHTML = "Dark-Mode";
+    shower.innerText = "Dark-Mode";
   }
 
   else {
@@ -36,7 +36,7 @@ lightDark.addEventListener("click", function () {
     // document.documentElement.style.setProperty('--Line', 'aqua');
     sun.style.display = "flex";
     moon.style.display = "none";
-    shower.innerHTML = "Light-Mode";
+    shower.innerText = "Light-Mode";
   }
 });
 
