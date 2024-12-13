@@ -840,7 +840,7 @@ gap:20px;
   position: absolute;
   padding: 10px;
   border-radius: 0.5rem;
-  background: var(--bodyBG);
+  background: #090b13;
   color: var(--colorDes);
   z-index: 1000;
   top: -100%;
@@ -1319,7 +1319,7 @@ footer .container .contents .subscribe .input i {
   }
 }
 
-/* @keyframes fadeIn {
+@keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(-30px);
@@ -1328,7 +1328,7 @@ footer .container .contents .subscribe .input i {
     opacity: 1;
     transform: translateY(0);
   }
-} */
+}
 
 @keyframes faderight {
   from {
