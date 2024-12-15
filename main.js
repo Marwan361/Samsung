@@ -132,9 +132,9 @@
 	// 	updatePriceSlider($(this).parent() , this.value)
 	// });
 
-	priceInputMin.addEventListener('change', function(){
-		updatePriceSlider($(this).parent() , this.value)
-	});
+	// priceInputMin.addEventListener('change', function(){
+	// 	updatePriceSlider($(this).parent() , this.value)
+	// });
 
 	function updatePriceSlider(elem , value) {
 		if ( elem.hasClass('price-min') ) {
