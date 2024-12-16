@@ -68,6 +68,11 @@ body {
   transition: 0.25s color ease,0.25s background ease;
   direction: rtl;
 }
+
+#shop{
+font-family:'Droid Arabic Naskh', serif;  
+}
+
 nav,
 header,
 footer,
