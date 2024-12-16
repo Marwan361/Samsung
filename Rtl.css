@@ -1215,7 +1215,7 @@ footer .blackline {
   border-top: 1px solid var(--colorDes);
   align-items: center;
   bottom: 0;
-  direction:l tr;
+  direction: ltr;
 }
 
 footer .blackline span {
