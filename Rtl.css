@@ -1224,6 +1224,15 @@ footer .bl_date {
 footer .container .sublinks {
   line-height: 2;
 }
+footer .container .contents iframe {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  filter: brightness(90%);
+  border: 2px solid var(--colorDes);
+  box-shadow: 6px 6px 20px #121622;
+
+}
 
 footer .container .contents .subscribe {
   display: flex;
@@ -1653,6 +1662,11 @@ opacity: 0;
 }
 
 @media (max-width: 450px) {
+  
+  iframe{
+    width:250px !important;
+/*     height:225px !important; */
+  }
   .navbar {
     flex-direction: column;
    padding:0.25rem 1rem !important;
