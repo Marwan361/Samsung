@@ -76,7 +76,9 @@ font-family:'Droid Arabic Naskh', serif;
 nav,
 header,
 footer,
-#nav-bar{
+#nav-bar,
+.num,
+.switchers{
   font-family: jura;
 }
 
