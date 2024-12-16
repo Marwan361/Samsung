@@ -1195,6 +1195,15 @@ footer .container .contents .icons i {
 footer .container .contents .icons a:hover i {
   transform: translateY(-10px);
 }
+footer .container .contents iframe {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  filter: brightness(90%);
+  border: 2px solid var(--colorDes);
+  box-shadow: 6px 6px 20px #121622;
+
+}
 
 footer .blackline {
   width: 100%;
@@ -1652,6 +1661,10 @@ opacity: 0;
 }
 
 @media (max-width: 450px) {
+  iframe{
+    width:250px !important;
+/*     height:225px !important; */
+  }
   .navbar {
     flex-direction: column;
    padding:0.25rem 1rem !important;
